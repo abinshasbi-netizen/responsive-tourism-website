@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+#hd {
+  height: 5rem;
+  background: linear-gradient(to bottom, #006f2b, #00000000);
+}
+
+#icn {
+  max-height: 70px;
+  height: auto;
+  width: auto;
+  display: block;
+}
+
+.navbar-toggler {
+  border: 1px solid rgba(255, 255, 255, 0.359);
+  background-color: rgba(255, 255, 255, 0.248);
+  font-size: 90%;
+}
+
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: aqua !important;
+}
+
+.active {
+  color: rgb(246, 255, 0) !important;
+}
+
+#ttl {
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+
+#ttl a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#ttl a:hover {
+  color: white;
+}
+
+.navbar-collapse {
+  position: relative;
+  z-index: 10;
+  background-color: #ffffff00;
+}
+
+.carousel-item img {
+  max-height: 640px;
+}
+
+#carouselExampleAutoplaying {
+  margin-bottom: 5rem;
+}
+
+#hdr {
+  font-family: "Pacifico", cursive;
+}
+
+#cpn {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#dwn {
+  margin-top: 10rem;
+  background-image: url("../assets/images/backgrounds/destinations-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.crd {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.btn {
+  display: flex;
+  justify-self: center;
+  max-width: 50%;
+}
+#pcptn {
+  margin: 0%;
+  padding-left: 0% !important;
+  display: flex;
+  align-items: center;
+}
+
+img.img-fluid {
+  max-width: 40%;
+}
+
+.fs-6,
+ .fs-md-2  {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.col{
+
+  justify-items: center;
+}
+
+.imr {
+  transition: 0.2s ease-in-out;
+}
+
+.imr:hover {
+  color: yellow !important;
+  font-size: larger !important;
+}
+
+#art {
+  padding-top: 5%;
+  padding-bottom: 4%;
+  background-image: url("../assets/images/backgrounds/culture-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img {
+  max-height: 25%;
+}
+
+.crd {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}

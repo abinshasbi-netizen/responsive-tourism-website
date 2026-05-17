@@ -1,0 +1,1 @@
+console.log("Kerala Tourism Website Initialized");
