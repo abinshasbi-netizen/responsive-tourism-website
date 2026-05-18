@@ -183,3 +183,103 @@ height: 75px;
 
   color: red;
 }
+
+/* ---------- Responsive Refinements ---------- */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+@media (max-width: 768px) {
+
+  #hd {
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  #ttl {
+    font-size: 0.9rem;
+  }
+
+  .navbar-collapse {
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .nav-item {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Hero Section */
+
+@media (max-width: 768px) {
+
+  .carousel-item img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  #hdr {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  #cpn {
+    font-size: 1rem !important;
+    padding: 1.5rem !important;
+    line-height: 1.8rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #pcptn {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img.img-fluid {
+    max-width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .fs-md-2 {
+    white-space: normal;
+    font-size: 1.1rem;
+  }
+
+  #art {
+    padding: 3rem 1rem;
+  }
+
+  .card-img {
+    max-height: none;
+  }
+}
+
+/* Footer */
+
+@media (max-width: 768px) {
+
+  #mn {
+    width: 100%;
+    padding: 2rem 1rem !important;
+  }
+
+  .fa-brands {
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+  }
+
+  #spn {
+    white-space: normal;
+  }
+}
