@@ -145,3 +145,41 @@ img.img-fluid {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+#tp{
+margin-top: 5%;
+background: linear-gradient(to bottom, #00000000, #006f2b);
+height: 75px;
+}
+
+#ft{
+
+  background-color: #006f2b;
+  font-family:"Saira", sans-serif;  
+}
+#mn{
+  line-height: 2em;
+}
+.fa-brands{
+
+  color: white;
+  font-size: 2em;
+  border: 0.1px transparent white;
+  border-radius: 5em;
+  margin-right: 1em;
+  
+}
+.fa-brands:hover{
+
+ color: aqua;
+}
+
+#spn{
+
+  white-space: nowrap;
+}
+
+.clr{
+
+  color: red;
+}
