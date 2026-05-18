@@ -27,7 +27,9 @@ body {
 .navbar .nav-link {
   color: white;
 }
-
+.nav-link {
+  transition: 0.3s ease;
+}
 .navbar .nav-link:hover {
   color: aqua !important;
 }
@@ -87,12 +89,20 @@ body {
 .crd {
   margin-top: 2em;
   margin-bottom: 2em;
+  transition: transform 0.3s ease;
+}
+
+.crd:hover {
+  transform: translateY(-5px);
 }
 
 .btn {
   display: flex;
   justify-self: center;
   max-width: 50%;
+}
+.btn:hover {
+  transform: scale(1.05);
 }
 #pcptn {
   margin: 0%;
