@@ -83,6 +83,20 @@ The website is optimized for:
 
 ---
 
+## Screenshots
+
+### Homepage
+![Homepage](assets/images/screenshots/homepage.png)
+
+### Destinations Section
+![Destinations](assets/images/screenshots/destinations-section.png)
+
+### Cultural Experiences
+![Culture](assets/images/screenshots/culture-section.png)
+
+### Footer Section
+![Footer](assets/images/screenshots/footer-section.png)
+
 ## Future Improvements
 
 - Add dark/light mode toggle
